@@ -13,11 +13,12 @@
 		AF660C3729C30B6E0037D53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF660C3529C30B6E0037D53D /* Main.storyboard */; };
 		AF660C3C29C30B700037D53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF660C3A29C30B700037D53D /* LaunchScreen.storyboard */; };
 		AF660C4429C310860037D53D /* LXGWWenKai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF660C4329C310840037D53D /* LXGWWenKai-Regular.ttf */; };
+		AFC70A2229C3859F0063E73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC70A2129C3859F0063E73A /* Assets.xcassets */; };
 		AFE255F329C3190000636C4A /* LXGWWenKai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE255F229C3190000636C4A /* LXGWWenKai-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF660C2C29C30B6E0037D53D /* Color Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF660C2C29C30B6E0037D53D /* 色集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "色集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF660C2F29C30B6E0037D53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF660C3129C30B6E0037D53D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF660C3329C30B6E0037D53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +26,7 @@
 		AF660C3B29C30B700037D53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF660C3D29C30B700037D53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF660C4329C310840037D53D /* LXGWWenKai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LXGWWenKai-Regular.ttf"; sourceTree = "<group>"; };
+		AFC70A2129C3859F0063E73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFE255F229C3190000636C4A /* LXGWWenKai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LXGWWenKai-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,7 @@
 		AF660C2D29C30B6E0037D53D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF660C2C29C30B6E0037D53D /* Color Book.app */,
+				AF660C2C29C30B6E0037D53D /* 色集.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +68,7 @@
 				AF660C3529C30B6E0037D53D /* Main.storyboard */,
 				AF660C3A29C30B700037D53D /* LaunchScreen.storyboard */,
 				AF660C3D29C30B700037D53D /* Info.plist */,
+				AFC70A2129C3859F0063E73A /* Assets.xcassets */,
 			);
 			path = "Color Book";
 			sourceTree = "<group>";
@@ -73,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF660C2B29C30B6E0037D53D /* Color Book */ = {
+		AF660C2B29C30B6E0037D53D /* 色集 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF660C4029C30B700037D53D /* Build configuration list for PBXNativeTarget "Color Book" */;
+			buildConfigurationList = AF660C4029C30B700037D53D /* Build configuration list for PBXNativeTarget "色集" */;
 			buildPhases = (
 				AF660C2829C30B6E0037D53D /* Sources */,
 				AF660C2929C30B6E0037D53D /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Color Book";
+			name = "色集";
 			productName = "Color Book";
-			productReference = AF660C2C29C30B6E0037D53D /* Color Book.app */;
+			productReference = AF660C2C29C30B6E0037D53D /* 色集.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF660C2729C30B6E0037D53D /* Build configuration list for PBXProject "Color Book" */;
+			buildConfigurationList = AF660C2729C30B6E0037D53D /* Build configuration list for PBXProject "色集" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF660C2B29C30B6E0037D53D /* Color Book */,
+				AF660C2B29C30B6E0037D53D /* 色集 */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +135,7 @@
 				AF660C3C29C30B700037D53D /* LaunchScreen.storyboard in Resources */,
 				AF660C4429C310860037D53D /* LXGWWenKai-Regular.ttf in Resources */,
 				AF660C3729C30B6E0037D53D /* Main.storyboard in Resources */,
+				AFC70A2229C3859F0063E73A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF660C2729C30B6E0037D53D /* Build configuration list for PBXProject "Color Book" */ = {
+		AF660C2729C30B6E0037D53D /* Build configuration list for PBXProject "色集" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF660C3E29C30B700037D53D /* Debug */,
@@ -352,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF660C4029C30B700037D53D /* Build configuration list for PBXNativeTarget "Color Book" */ = {
+		AF660C4029C30B700037D53D /* Build configuration list for PBXNativeTarget "色集" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF660C4129C30B700037D53D /* Debug */,
